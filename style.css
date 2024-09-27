@@ -1,0 +1,23 @@
+.quran-reader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.quran-text {
+  max-width: 800px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.highlighted {
+  background-color: #ffffe0;
+}
